@@ -1,20 +1,5 @@
 [
   {
-    "pref": "鳥取県",
-    "m": 2,
-    "n_nodes": 19,
-    "n_edges": 33,
-    "n_solutions": 58,
-    "best_ratio": 1.005117,
-    "best_pops": [
-      258537,
-      259860
-    ],
-    "is_approximate": false,
-    "elapsed_sec": 0.058,
-    "tottori_mode": true
-  },
-  {
     "pref": "島根県",
     "m": 2,
     "n_nodes": 19,
@@ -589,6 +574,21 @@
     ],
     "is_approximate": true,
     "elapsed_sec": 31.349,
+    "tottori_mode": false
+  },
+  {
+    "pref": "鳥取県",
+    "m": 2,
+    "n_nodes": 19,
+    "n_edges": 33,
+    "n_solutions": 1,
+    "best_ratio": 1.005117,
+    "best_pops": [
+      258537,
+      259860
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.026,
     "tottori_mode": false
   }
 ]
