@@ -1,0 +1,594 @@
+[
+  {
+    "pref": "鳥取県",
+    "m": 2,
+    "n_nodes": 19,
+    "n_edges": 33,
+    "n_solutions": 58,
+    "best_ratio": 1.005117,
+    "best_pops": [
+      258537,
+      259860
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.058,
+    "tottori_mode": true
+  },
+  {
+    "pref": "島根県",
+    "m": 2,
+    "n_nodes": 19,
+    "n_edges": 30,
+    "n_solutions": 6,
+    "best_ratio": 1.030951,
+    "best_pops": [
+      305094,
+      314537
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.006,
+    "tottori_mode": false
+  },
+  {
+    "pref": "徳島県",
+    "m": 2,
+    "n_nodes": 24,
+    "n_edges": 53,
+    "n_solutions": 2194,
+    "best_ratio": 1.000509,
+    "best_pops": [
+      334024,
+      334194
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.843,
+    "tottori_mode": false
+  },
+  {
+    "pref": "高知県",
+    "m": 2,
+    "n_nodes": 34,
+    "n_edges": 66,
+    "n_solutions": 24,
+    "best_ratio": 1.073777,
+    "best_pops": [
+      307357,
+      330033
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.055,
+    "tottori_mode": false
+  },
+  {
+    "pref": "福井県",
+    "m": 2,
+    "n_nodes": 17,
+    "n_edges": 28,
+    "n_solutions": 34,
+    "best_ratio": 1.001913,
+    "best_pops": [
+      355508,
+      356188
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.008,
+    "tottori_mode": false
+  },
+  {
+    "pref": "山梨県",
+    "m": 2,
+    "n_nodes": 27,
+    "n_edges": 61,
+    "n_solutions": 11907,
+    "best_ratio": 1.000018,
+    "best_pops": [
+      379808,
+      379815
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 3.676,
+    "tottori_mode": false
+  },
+  {
+    "pref": "和歌山県",
+    "m": 2,
+    "n_nodes": 30,
+    "n_edges": 57,
+    "n_solutions": 63,
+    "best_ratio": 1.000234,
+    "best_pops": [
+      427593,
+      427693
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.033,
+    "tottori_mode": false
+  },
+  {
+    "pref": "佐賀県",
+    "m": 2,
+    "n_nodes": 20,
+    "n_edges": 36,
+    "n_solutions": 64,
+    "best_ratio": 1.045547,
+    "best_pops": [
+      377065,
+      394239
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.038,
+    "tottori_mode": false
+  },
+  {
+    "pref": "大分県",
+    "m": 3,
+    "n_nodes": 18,
+    "n_edges": 33,
+    "n_solutions": 17,
+    "best_ratio": 1.581293,
+    "best_pops": [
+      294767,
+      299786,
+      466113
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.014,
+    "tottori_mode": false
+  },
+  {
+    "pref": "宮崎県",
+    "m": 3,
+    "n_nodes": 26,
+    "n_edges": 55,
+    "n_solutions": 2806,
+    "best_ratio": 1.244343,
+    "best_pops": [
+      310842,
+      311166,
+      386794
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 1.027,
+    "tottori_mode": false
+  },
+  {
+    "pref": "秋田県",
+    "m": 3,
+    "n_nodes": 25,
+    "n_edges": 55,
+    "n_solutions": 26,
+    "best_ratio": 1.09722,
+    "best_pops": [
+      278996,
+      291882,
+      306120
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.094,
+    "tottori_mode": false
+  },
+  {
+    "pref": "岩手県",
+    "m": 3,
+    "n_nodes": 33,
+    "n_edges": 75,
+    "n_solutions": 1420206,
+    "best_ratio": 1.0019,
+    "best_pops": [
+      371574,
+      371601,
+      372280
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 45.894,
+    "tottori_mode": false
+  },
+  {
+    "pref": "山口県",
+    "m": 3,
+    "n_nodes": 19,
+    "n_edges": 32,
+    "n_solutions": 15,
+    "best_ratio": 1.138562,
+    "best_pops": [
+      386535,
+      419506,
+      440094
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.005,
+    "tottori_mode": false
+  },
+  {
+    "pref": "愛媛県",
+    "m": 3,
+    "n_nodes": 20,
+    "n_edges": 34,
+    "n_solutions": 12,
+    "best_ratio": 1.504371,
+    "best_pops": [
+      327622,
+      423557,
+      492865
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.006,
+    "tottori_mode": false
+  },
+  {
+    "pref": "長崎県",
+    "m": 3,
+    "n_nodes": 21,
+    "n_edges": 26,
+    "n_solutions": 28,
+    "best_ratio": 1.015065,
+    "best_pops": [
+      402911,
+      407291,
+      408981
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.013,
+    "tottori_mode": false
+  },
+  {
+    "pref": "青森県",
+    "m": 3,
+    "n_nodes": 40,
+    "n_edges": 84,
+    "n_solutions": 1619929,
+    "best_ratio": 1.022358,
+    "best_pops": [
+      372082,
+      380376,
+      380401
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 49.961,
+    "tottori_mode": false
+  },
+  {
+    "pref": "富山県",
+    "m": 3,
+    "n_nodes": 16,
+    "n_edges": 35,
+    "n_solutions": 860,
+    "best_ratio": 1.007945,
+    "best_pops": [
+      320447,
+      321622,
+      322993
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.139,
+    "tottori_mode": false,
+    "split_city": true
+  },
+  {
+    "pref": "石川県",
+    "m": 3,
+    "n_nodes": 20,
+    "n_edges": 35,
+    "n_solutions": 16,
+    "best_ratio": 1.288809,
+    "best_pops": [
+      318117,
+      342391,
+      409992
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.008,
+    "tottori_mode": false,
+    "split_city": true
+  },
+  {
+    "pref": "香川県",
+    "m": 3,
+    "n_nodes": 18,
+    "n_edges": 38,
+    "n_solutions": 1724,
+    "best_ratio": 1.006411,
+    "best_pops": [
+      296203,
+      297318,
+      298102
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.392,
+    "tottori_mode": false,
+    "split_city": true
+  },
+  {
+    "pref": "山形県",
+    "m": 3,
+    "n_nodes": 35,
+    "n_edges": 85,
+    "n_solutions": 13846325,
+    "best_ratio": 1.0009,
+    "best_pops": [
+      327680,
+      327950,
+      327975
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 375.155,
+    "tottori_mode": false
+  },
+  {
+    "pref": "奈良県",
+    "m": 3,
+    "n_nodes": 39,
+    "n_edges": 96,
+    "n_solutions": 148804891,
+    "best_ratio": 1.00772,
+    "best_pops": [
+      416432,
+      416434,
+      419647
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 2156.431,
+    "tottori_mode": false
+  },
+  {
+    "pref": "三重県",
+    "m": 3,
+    "n_nodes": 29,
+    "n_edges": 52,
+    "n_solutions": 0,
+    "best_ratio": null,
+    "best_pops": null,
+    "is_approximate": false,
+    "elapsed_sec": 0.02,
+    "tottori_mode": false
+  },
+  {
+    "pref": "滋賀県",
+    "m": 3,
+    "n_nodes": 19,
+    "n_edges": 46,
+    "n_solutions": 1843,
+    "best_ratio": 1.018471,
+    "best_pops": [
+      447029,
+      452906,
+      455286
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.454,
+    "tottori_mode": false
+  },
+  {
+    "pref": "三重県",
+    "m": 4,
+    "n_nodes": 29,
+    "n_edges": 52,
+    "n_solutions": 1,
+    "best_ratio": 1.795107,
+    "best_pops": [
+      264558,
+      449180,
+      449815,
+      474910
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.01,
+    "tottori_mode": false
+  },
+  {
+    "pref": "岡山県",
+    "m": 4,
+    "n_nodes": 30,
+    "n_edges": 66,
+    "n_solutions": 32921,
+    "best_ratio": 1.036654,
+    "best_pops": [
+      439871,
+      439908,
+      440863,
+      455994
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 10.554,
+    "tottori_mode": false
+  },
+  {
+    "pref": "熊本県",
+    "m": 4,
+    "n_nodes": 49,
+    "n_edges": 106,
+    "n_solutions": 5707607,
+    "best_ratio": 1.166123,
+    "best_pops": [
+      395707,
+      396605,
+      398523,
+      461443
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 110.424,
+    "tottori_mode": false
+  },
+  {
+    "pref": "京都府",
+    "m": 6,
+    "n_nodes": 36,
+    "n_edges": 81,
+    "n_solutions": 848510,
+    "best_ratio": 1.111174,
+    "best_pops": [
+      377012,
+      391572,
+      411762,
+      414139,
+      418350,
+      418926
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 38.479,
+    "tottori_mode": false
+  },
+  {
+    "pref": "新潟県",
+    "m": 5,
+    "n_nodes": 37,
+    "n_edges": 76,
+    "n_solutions": 4783763,
+    "best_ratio": 1.188261,
+    "best_pops": [
+      380228,
+      385720,
+      395639,
+      434658,
+      451810
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 52.865,
+    "tottori_mode": false
+  },
+  {
+    "pref": "栃木県",
+    "m": 5,
+    "n_nodes": 25,
+    "n_edges": 56,
+    "n_solutions": 4358,
+    "best_ratio": 1.548513,
+    "best_pops": [
+      323511,
+      324606,
+      325764,
+      339656,
+      500961
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 1.64,
+    "tottori_mode": false
+  },
+  {
+    "pref": "群馬県",
+    "m": 5,
+    "n_nodes": 35,
+    "n_edges": 77,
+    "n_solutions": 5726,
+    "best_ratio": 1.140929,
+    "best_pops": [
+      338404,
+      338514,
+      361290,
+      368487,
+      386095
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 3.723,
+    "tottori_mode": false
+  },
+  {
+    "pref": "広島県",
+    "m": 6,
+    "n_nodes": 30,
+    "n_edges": 63,
+    "n_solutions": 122882,
+    "best_ratio": 1.013808,
+    "best_pops": [
+      434324,
+      435674,
+      437386,
+      437855,
+      439995,
+      440321
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 33.037,
+    "tottori_mode": false
+  },
+  {
+    "pref": "滋賀県",
+    "m": 4,
+    "n_nodes": 19,
+    "n_edges": 46,
+    "n_solutions": 11227,
+    "best_ratio": 1.004054,
+    "best_pops": [
+      337901,
+      338875,
+      339174,
+      339271
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 1.853,
+    "tottori_mode": false
+  },
+  {
+    "pref": "沖縄県",
+    "m": 4,
+    "n_nodes": 41,
+    "n_edges": 63,
+    "n_solutions": 224,
+    "best_ratio": 1.311036,
+    "best_pops": [
+      319461,
+      334179,
+      369347,
+      418825
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 0.15,
+    "tottori_mode": false
+  },
+  {
+    "pref": "鹿児島県",
+    "m": 4,
+    "n_nodes": 44,
+    "n_edges": 77,
+    "n_solutions": 6364,
+    "best_ratio": 1.04677,
+    "best_pops": [
+      366818,
+      370312,
+      375170,
+      383974
+    ],
+    "is_approximate": false,
+    "elapsed_sec": 3.6,
+    "tottori_mode": false
+  },
+  {
+    "pref": "宮城県",
+    "m": 5,
+    "n_nodes": 39,
+    "n_edges": 87,
+    "n_solutions": 120877,
+    "best_ratio": 1.0278,
+    "best_pops": [
+      432549,
+      440470,
+      441013,
+      443505,
+      444574
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 52.986,
+    "tottori_mode": false
+  },
+  {
+    "pref": "静岡県",
+    "m": 8,
+    "n_nodes": 40,
+    "n_edges": 85,
+    "n_solutions": 2488300,
+    "best_ratio": 1.396736,
+    "best_pops": [
+      345411,
+      347106,
+      359271,
+      435979,
+      439630,
+      472406,
+      477397,
+      482448
+    ],
+    "is_approximate": true,
+    "elapsed_sec": 31.349,
+    "tottori_mode": false
+  }
+]
