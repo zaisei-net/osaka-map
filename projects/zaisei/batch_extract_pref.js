@@ -258,6 +258,9 @@ function extractPref(sheet,name){
   const cerRow=detectCerRow(sheet);
   const cer=g(cerRow,40);if(cer!==null&&typeof cer==='number')m.current_expenditure_ratio=cer;
 
+  // ラスパイレス指数 (row23, col94 = CQ)
+  const las=g(23,94); if(num(las)!==null)m.laspeyres_index=las;
+
   // 職員（固定）
   const emps=[];
   for(const[r,label]of[[16,'一般職員'],[18,'うち技能労務職員'],[19,'警察官'],[20,'教育公務員']]){
@@ -284,6 +287,13 @@ function extractPref(sheet,name){
   // 歳出性質別（基準行から相対オフセット）
   const expNBase=detectExpNatureBase(sheet);
   const expNTotalRow=detectExpNatureTotalRow(sheet,expNBase);
+
+  // 経常経費充当一般財源等計 (base+18, col33) & 歳入一般財源等計 (歳出合計行, col33)
+  const rgr=g(expNBase+18,33); if(num(rgr)!==null)m.regular_general_revenue=rgr;
+  const tgr=g(expNTotalRow,33); if(num(tgr)!==null)m.total_general_revenue=tgr;
+  // 繰出金 = base+12, col12
+  const pio=g(expNBase+12,12); if(num(pio)!==null)m.payout_total=pio;
+
   const expN=[];
   for(const[off,label]of EXP_NATURE_OFFSETS){
     const row=expNBase+off;
