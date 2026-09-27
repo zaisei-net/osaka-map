@@ -126,24 +126,28 @@ body {
   font-size: 13px;
   height: 26px;
 }
-/* Main content — pushed below fixed bar; JS sets padding-top */
+/* tbl-wrap は縦横スクロールコンテナ。JS がバー高さに合わせて top/height を設定 */
+html, body { height: 100%; margin: 0; }
 #main {
-  padding-inline: 0;
-  padding-top: 52px; /* fallback; JS overrides */
+  position: fixed;
+  top: 72px; /* fallback; JS overrides */
+  left: 0; right: 0; bottom: 0;
 }
 .tbl-wrap {
-  overflow-x: auto;
   width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 table {
   border-collapse: collapse;
   width: max-content;
   min-width: 100%;
 }
-/* Sticky thead — offset set by JS via --bar-h */
+/* tbl-wrap が scroll container なので top:0 でバー直下に固定される */
 thead th {
   position: sticky;
-  top: var(--bar-h, 52px);
+  top: 0;
   z-index: 100;
   background: #1d2540;
   color: #c5cfed;
@@ -9835,11 +9839,10 @@ function toggleFold(btn) {
   if (!btn.dataset.label) btn.dataset.label = btn.textContent;
 }
 
-// Fix bar height → set CSS var + main padding-top
+// JS: bar 高さに合わせて #main の top を更新
 function syncBarHeight() {
   const h = document.getElementById('bar').getBoundingClientRect().height;
-  document.documentElement.style.setProperty('--bar-h', h + 'px');
-  document.getElementById('main').style.paddingTop = h + 'px';
+  document.getElementById('main').style.top = h + 'px';
 }
 new ResizeObserver(syncBarHeight).observe(document.getElementById('bar'));
 syncBarHeight();
